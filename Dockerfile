@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /micro
 
-COPY . .
+COPY /src .
 
 RUN npm install
 
